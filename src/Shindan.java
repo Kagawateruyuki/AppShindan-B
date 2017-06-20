@@ -16,8 +16,17 @@ public class Shindan {
 	public void situmon2(){
 		//中里担当
 	}
-	public void situmon3(){
+	public static int situmon3(){
 		//葛西担当
+
+		System.out.println("あなたのおうちは日本ですか？");
+		System.out.println("1:yes 2:no");
+		 Scanner sc = new Scanner(System.in);
+
+		    int sc3 = sc.nextInt();
+
+		    return sc3;
+
 	}
 	public void situmon4(){
 		//大地担当
